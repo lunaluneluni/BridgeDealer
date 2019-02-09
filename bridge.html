@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Created by Luna-->
+
+    <head>
+        <script type="text/javascript" src="bridge.js"></script>
+        <link rel="stylesheet" href="bridge.css" />
+        <title>Play Bridge</title>
+    </head>
+
+    <body>
+        <h1>Play Bridge</h1>
+        <img id="cards" src="cards.jpg" height=200 alt="Cards in Display" />
+
+        <div class="box">
+            <button class="button" onclick="redeal()">Re-deal</button>
+
+            <div class="game">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p>North</p>
+                            <div id="nspades">
+                                <img src="spade.gif" alt="Spade: " />
+                            </div>
+                            <div id="ndiamonds">
+                                <img src="diamond.gif" alt="Diamond: " />
+                            </div>                   
+                            <div id="nclovers">
+                                <img src="clover.gif" alt="Clover: " />
+                            </div>
+                            <div id="nhearts">
+                                <img src="heart.gif" alt="Heart: " />
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>West</p>
+                            <div id="wspades">
+                                <img src="spade.gif" alt="Spade: " />
+                            </div>
+                            <div id="wdiamonds">
+                                <img src="diamond.gif" alt="Diamond: " />
+                            </div>                   
+                            <div id="wclovers">
+                                <img src="clover.gif" alt="Clover: " />
+                            </div>
+                            <div id="whearts">
+                                <img src="heart.gif" alt="Heart: " />
+                            </div>
+                        </td>
+                        <td></td>
+                        <td>
+                            <p>East</p>
+                            <div id="espades">
+                                <img src="spade.gif" alt="Spade: " />
+                            </div>
+                            <div id="ediamonds">
+                                <img src="diamond.gif" alt="Diamond: " />
+                            </div>                   
+                            <div id="eclovers">
+                                <img src="clover.gif" alt="Clover: " />
+                            </div>
+                            <div id="ehearts">
+                                <img src="heart.gif" alt="Heart: " />
+                            </div>
+                        </td>
+                    </tr>
+                <br />
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p>South</p>
+                            <div id="sspades">
+                                <img src="spade.gif" alt="Spade: " />
+                            </div>
+                            <div id="sdiamonds">
+                                <img src="diamond.gif" alt="Diamond: " />
+                            </div>                   
+                            <div id="sclovers">
+                                <img src="clover.gif" alt="Clover: " />
+                            </div>
+                            <div id="shearts">
+                                <img src="heart.gif" alt="Heart: " />
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <script>testDeal();</script>
+                </table>
+            </div>
+
+        </div>
+    </body>
+
+</html>

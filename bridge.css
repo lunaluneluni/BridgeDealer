@@ -1,0 +1,48 @@
+/*
+Created by Luna
+*/
+
+p {
+    font-weight: bold;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 25%;
+    width: 25%;
+}
+
+.box {
+    margin: auto;
+    border: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.game {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+#cards {
+    position: relative;
+    left: 10%;
+}
